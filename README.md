@@ -1,4 +1,4 @@
-# prog-str-2D-SergioSerrano
+# prog-str-2D-SergioSerranoMain
 Repositorio de uso escolar para programacion estructurada durante el cuatrimestre
 
 Extra_Aqui se va a poner todos los trabajos
