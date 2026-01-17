@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb2a7981-4798-43f6-994a-1e9cee566003" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/prog-str-2D-SergioSerrano.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/prog-str-2D-SergioSerrano.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +33,7 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/alber/OneDrive/Escritorio/testrepo/prog-str-2D-SergioSerrano",
+    "last_opened_file_path": "C:/Users/alber/OneDrive/Escritorio/newtest/prog-str-2D-SergioSerrano",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -65,6 +64,7 @@
       <workItem from="1768571384378" duration="2173000" />
       <workItem from="1768577867723" duration="67000" />
       <workItem from="1768578094175" duration="241000" />
+      <workItem from="1768613085477" duration="365000" />
     </task>
     <servers />
   </component>
