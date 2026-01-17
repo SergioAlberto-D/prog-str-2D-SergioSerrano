@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb2a7981-4798-43f6-994a-1e9cee566003" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MergeWithOutConflict/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MergeWithOutConflict/MergeWithOutConflict.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MergeWithOutConflict/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +32,7 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "feature/operaciones",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/alber/OneDrive/Escritorio/newtest/prog-str-2D-SergioSerrano",
@@ -65,6 +67,7 @@
       <workItem from="1768577867723" duration="67000" />
       <workItem from="1768578094175" duration="241000" />
       <workItem from="1768613085477" duration="365000" />
+      <workItem from="1768613911497" duration="142000" />
     </task>
     <servers />
   </component>
