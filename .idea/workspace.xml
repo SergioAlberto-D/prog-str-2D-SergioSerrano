@@ -20,18 +20,18 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "SergioAlberto-D"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;SergioAlberto-D&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/SergioAlberto-D/prog-str-2D-SergioSerrano.git",
-    "accountId": "b0ecfca9-ba1a-424a-9337-6c637a6900cf"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/SergioAlberto-D/prog-str-2D-SergioSerrano.git&quot;,
+    &quot;accountId&quot;: &quot;b0ecfca9-ba1a-424a-9337-6c637a6900cf&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -50,7 +50,7 @@
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/alber/OneDrive/Escritorio/newtest/prog-str-2D-SergioSerrano&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/alber/OneDrive/Escritorio/test/prog-str-2D-SergioSerrano&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -89,6 +89,9 @@
       <workItem from="1768613085477" duration="365000" />
       <workItem from="1768614486794" duration="26000" />
       <workItem from="1768662098076" duration="453000" />
+      <workItem from="1768668259493" duration="51000" />
+      <workItem from="1768668335052" duration="27000" />
+      <workItem from="1768668405579" duration="23000" />
     </task>
     <servers />
   </component>
