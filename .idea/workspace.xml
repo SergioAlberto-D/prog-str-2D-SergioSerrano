@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb2a7981-4798-43f6-994a-1e9cee566003" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/prog-str-2D-SergioSerrano.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/prog-str-2D-SergioSerrano.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +31,7 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "git-widget-placeholder": "Merging main",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/alber/OneDrive/Escritorio/testrepo/prog-str-2D-SergioSerrano",
@@ -40,6 +40,9 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -60,6 +63,8 @@
       <updated>1768229439850</updated>
       <workItem from="1768229441446" duration="221000" />
       <workItem from="1768571384378" duration="2173000" />
+      <workItem from="1768577867723" duration="67000" />
+      <workItem from="1768578094175" duration="241000" />
     </task>
     <servers />
   </component>
