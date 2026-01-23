@@ -1,16 +1,18 @@
 import java.util.Scanner;
 
 public class Main {
+
   public static double iva = 1.16;
+  public static Scanner scanner = new Scanner(System.in);
 
   public static void main(String[] args) {
-    Scanner scanner = new Scanner(System.in);
-    double total = calculoIVA(pedirDouble(scanner, "Subtotal: "));
+
+    double total = calculoIVA(pedirDouble("Subtotal: "));
 
     System.out.printf("Total a pagar: %.2f%n", total);
   }
 
-  public static double pedirDouble(Scanner scanner, String mensaje) {
+  public static double pedirDouble(String mensaje) {
     System.out.print(mensaje);
     return scanner.nextDouble();
   }
