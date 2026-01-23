@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="eb2a7981-4798-43f6-994a-1e9cee566003" name="Changes" comment="" />
+=======
+    <list default="true" id="eb2a7981-4798-43f6-994a-1e9cee566003" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/GitConflictoApellidoNombre/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/GitConflictoApellidoNombre/src/Main.java" afterDir="false" />
+    </list>
+>>>>>>> feature/descuento
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,7 +55,11 @@
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+<<<<<<< HEAD
     "git-widget-placeholder": "main",
+=======
+    "git-widget-placeholder": "feature/descuento",
+>>>>>>> feature/descuento
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/alber/OneDrive/Escritorio/test/prog-str-2D-SergioSerrano",
