@@ -5,6 +5,7 @@ public class Main {
     public static int max = 100;
     public static int min = 0;
     public static int nminvalida;
+    public static int intentoFueroRange ;
     public static int limiiteIntentos = 7;
     public static Scanner input = new Scanner(System.in);
     public static Random random  = new Random();
@@ -12,7 +13,6 @@ public class Main {
         int secreto = random.nextInt(100+1);
         int intentos = 0;
         boolean gano = false;
-        int intentoFueroRange = 0;
         while(intentos < limiiteIntentos){
             int numero = obtenerNumeroValidado("Intentos " + (intentos+1));
             intentos++;
@@ -22,10 +22,8 @@ public class Main {
                 break;
             }else if(numero > secreto){
                 System.out.println("El numero que estas buscando es menor a: " + numero);
-                intentoFueroRange++;
             }else {
                 System.out.println("El numero que esta buscando es mayor a: " + numero);
-                intentoFueroRange++;
             }
         }
         if(!gano){
@@ -45,6 +43,7 @@ public class Main {
                     return valor;
                 }
                 System.out.println("El valor infesado esta fuera de rango (1-100)");
+                intentoFueroRange++;
             }else {
                 System.out.println("El dato ingresado no es numerico");
                 nminvalida++;
