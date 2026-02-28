@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.geometry.Insets?>
+<VBox spacing="12" xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.login.controllers.LoginController"
+      prefHeight="400.0" prefWidth="600.0">
+    <padding>
+        <Insets bottom="20" right="20" left="20" top="20"/>
+    </padding>
+    <Label text="Formulario Login"/>
+    <Label text="E-Mail: "/>
+    <TextField fx:id="txtEmail" promptText="Ingrese un e-mail (Ejemplo:'nombre{4 digitos}'@gmail.com)"/>
+    <Label text="Contraseña: "/>
+    <TextField fx:id="txtContrasena" promptText="Ingrese Una contraseña"/>
+    <Button text="Validar formulario" onAction="#onValidate"/>
+    <Label fx:id="lblResultado" />
+</VBox>
