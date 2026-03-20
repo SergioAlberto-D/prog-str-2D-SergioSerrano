@@ -17,7 +17,7 @@ public class PersonService {
             String name = parts[0].trim();//obtiene el nombre del arreglo
             String core = parts[1].trim(); // obtiene el core del arreglo
             String age = (parts.length > 2) ? parts[2].trim(): "N/A"; //Obtiene la edad
-            result.add(name+" | "+ core+ " | "+ age);//se afrefa a la lista de resultados con el formato deseado
+            result.add(name+"|"+ core+ "|"+ age);//se afrefa a la lista de resultados con el formato deseado
         }
         return result;
     }
@@ -27,7 +27,31 @@ public class PersonService {
         String mailNoComa = email.replace(",","");
         repo.appendNewLine(nameNoComa + ","+mailNoComa+","+edad);
     }
-    private void validatePersone(String name, String email, String edad){
+    public void updatePersone(int index, String name, String email, String edad) throws IOException {
+        List<String> lines = getAllCleanLines();
+        if (index == -1){
+            throw new IllegalArgumentException("El indice recibido es invalido");
+        }
+        lines.set(index,name+","+email+","+edad);
+        repo.appendSentLine(lines);
+    }
+    public void delatePersone(int index) throws IOException {
+        List<String> lines = getAllCleanLines();
+        lines.remove(index);
+        repo.appendSentLine(lines);
+    }
+    private List<String> getAllCleanLines() throws IOException {
+        List<String> lines = repo.readAllLines();
+        List<String> cleanLines = new ArrayList<>();
+        for (String line: lines){
+            if(line!=null && !line.isBlank()){
+                cleanLines.add(line);
+            }
+        }
+        return cleanLines;
+    }
+
+    public void validatePersone(String name, String email, String edad){
         if(name == null || name.isBlank() || name.length()<3) {
             throw new IllegalArgumentException("El nombre no cumple con los estandares");
         }
